@@ -6,7 +6,7 @@ $('#random').on('click', function(){
 
 function randomButton() {
   var backgroundColor = $('.background');
-  backgroundColor.css( 'backgroundColor', randomHex());
+  backgroundColor.css( 'backgroundColor', anythingButWhite());
 }
 
 function randomHex() {
@@ -16,6 +16,13 @@ function randomHex() {
     hex += colorArray[Math.floor(Math.random()*16)];
   }
   return hex;
+}
+
+function anythingButWhite(hexcode) {
+  while (hexcode == '#ffffff') {
+    randomHex();
+  }
+  return randomHex();
 }
 
 $('#reset').on('click', function(){
