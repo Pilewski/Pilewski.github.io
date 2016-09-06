@@ -1,14 +1,15 @@
 section {
-  display: flex;
-  align-self: center;
-  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: white;
 }
-#random {
-
-}
-#reset {
-
+#random, #reset {
+  background: #E5B6D5;
+  text-align: center;
+  border-style: inset, outset, outset, inset;
+  border-color: #B2479A, #CC7FB5, #B2479A, #CC7FB5;
 }
 button:hover {
-
+  background: #B2479A;
+  border-color: #CC7FB5, #E5B6D5, #CC7FB5, #E5B6D5;
 }
