@@ -23,6 +23,9 @@
   background: #B2479A;
   border-color: #CC7FB5 #E5B6D5 #CC7FB5 #E5B6D5;
 }
+#random:focus, #reset:focus {
+  background-color: black; 
+}
 
 @media screen and (max-width: 500px) {
   .background {
