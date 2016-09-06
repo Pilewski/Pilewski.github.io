@@ -1,7 +1,7 @@
 section {
   display: flex;
   justify-content: space-around;
-  
+  align-content: center;
 }
 #random, #reset {
   font-family: 'Open Sans', sans-serif;
@@ -16,7 +16,7 @@ section {
   border-width: 10px;
   border-color: #B2479A #CC7FB5 #B2479A #CC7FB5;
 }
-button:hover {
+#random:hover, #reset:hover {
   background: #B2479A;
   border-color: #CC7FB5 #E5B6D5 #CC7FB5 #E5B6D5;
 }
