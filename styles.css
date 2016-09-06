@@ -1,5 +1,7 @@
 section {
-
+  display: flex;
+  align-self: center;
+  justify-content: center;
 }
 #random {
 
@@ -8,5 +10,5 @@ section {
 
 }
 button:hover {
-  
+
 }
