@@ -23,3 +23,18 @@
   background: #B2479A;
   border-color: #CC7FB5 #E5B6D5 #CC7FB5 #E5B6D5;
 }
+
+@media screen and (max-width: 500px) {
+  .background {
+    width: 100vw;
+    flex-direction: column;
+  }
+  #random, #reset {
+    width: 80%;
+    margin: 20px 0;
+  }
+  #reset {
+    height: 50px;
+    font-size: 20px;
+  }
+}
