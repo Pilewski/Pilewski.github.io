@@ -1,7 +1,7 @@
 .background {
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: white;
 }
@@ -17,6 +17,7 @@
   border-style: solid;
   border-width: 10px;
   border-color: #B2479A #CC7FB5 #B2479A #CC7FB5;
+  margin: 0 20px;
 }
 #random:hover, #reset:hover {
   background: #B2479A;
