@@ -1,15 +1,22 @@
 section {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  color: white;
+  display: flex;
+  justify-content: space-around;
+  
 }
 #random, #reset {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
   background: #E5B6D5;
-  text-align: center;
-  border-style: inset, outset, outset, inset;
-  border-color: #B2479A, #CC7FB5, #B2479A, #CC7FB5;
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #B2479A #CC7FB5 #B2479A #CC7FB5;
 }
 button:hover {
   background: #B2479A;
-  border-color: #CC7FB5, #E5B6D5, #CC7FB5, #E5B6D5;
+  border-color: #CC7FB5 #E5B6D5 #CC7FB5 #E5B6D5;
 }
